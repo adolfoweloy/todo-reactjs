@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  background: #f5f5f5;
+  color: #4d4d4d;
+  font-family: sans-serif;
+  background-size: auto;
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #f5f5f5;
+  color: #4d4d4d;
+  font-weight: 300;
+  margin: 2em auto;
+  font: .9em/1.2 Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 15px;
+}
+
+input[type="text"] {
+  height: 30px;
+  width: 315px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background: #fff;
+  color: #2f4f4f;
+}
+
+button.add {
+  font-size: 1.5em;
+  color: #53bdff;
+  background-color: #fff;
+  outline: 0;
+  border: none;
+  width: 50px;
+}
+
+button.delete {
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+
+.todolist {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+  
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 70px 0px 70px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+  font-size: 20px;
+}
+
+.editbox {
+  display: flex;
+}
